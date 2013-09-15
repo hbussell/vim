@@ -43,6 +43,9 @@ inoremap <C-t>     <Esc>:tabnew<CR>
 map <C-n> :NERDTreeToggle<CR>
 let NERDTreeShowHidden=1
 
+" map jj to escape key when in insert mode
+imap jj <Esc>
+
 
 " powerline setup
 python from powerline.vim import setup as powerline_setup
