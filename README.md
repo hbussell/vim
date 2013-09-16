@@ -2,11 +2,34 @@
 
 Minimal vim configuration using the bare requirements.
 
+## Features
+
+* Uses tab navigation like firefox.
+
+
+      `Ctrl-tab` to change tabs
+      `Ctrl-t` to open tab
+      `Ctrl-x` to close tab
+
+
+* Enable paste from system clipboard
+
+     `Ctrl-v`
+    
+
+* Powerline intergration
+
+* NERDTree
+    
+    `Ctrl-n` Toggle NERDTree
+
 ## Plugins used
 
 * NERDTree
 * Pathogen
 * vim-colors-solarizde
+* powerline
+
 
 ## Font
 
