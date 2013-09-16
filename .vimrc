@@ -4,16 +4,16 @@ filetype plugin indent on
 syntax enable
 
 
-
-
 " diable toolbar
 set guioptions-=m  "remove menu bar
 set guioptions-=T  "remove toolbar
 set guioptions-=r  "remove right-hand scroll bar
 
+
 " disable nerdtree scrollbar
 set guioptions+=LlRrb
 set guioptions-=LlRrb
+
 
 " gui theme
 if has('gui_running')
@@ -23,6 +23,7 @@ if has('gui_running')
   set background=dark
   colorscheme solarized
 endif
+
 
 " terminal theme
 if !has('gui_running')
@@ -34,6 +35,7 @@ if !has('gui_running')
   " color scheme
   colorscheme solarized
 endif
+
 
 "enable Ctrl-v to paste from system clipboard"
 set clipboard=unnamed
