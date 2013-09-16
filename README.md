@@ -27,7 +27,7 @@ Minimal vim configuration using the bare requirements.
 
 * NERDTree
 * Pathogen
-* vim-colors-solarizde
+* vim-colors-solarized
 * powerline
 
 
