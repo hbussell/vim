@@ -1,5 +1,7 @@
 # Vim configuration
 
+Minimal vim configuration using the bare requirements.
+
 ## Plugins used
 
 * NERDTree
