@@ -4,7 +4,10 @@ filetype plugin indent on
 syntax enable
 
 
-
+" set tab width
+set tabstop=2
+set shiftwidth=2
+set expandtab
 
 " diable toolbar
 set guioptions-=m  "remove menu bar
@@ -18,7 +21,7 @@ set guioptions-=LlRrb
 " gui theme
 if has('gui_running')
   "set guifont=Inconsolata\ 14
-  set guifont=DroidSansMono\ 11
+  set guifont=DroidSansMono\ 10
   " color scheme
   set background=dark
   colorscheme solarized
