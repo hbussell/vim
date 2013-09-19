@@ -10,6 +10,7 @@ Minimal vim configuration using the bare requirements.
 * [syntactic](https://github.com/scrooloose/syntastic)
 * [DBGPavim](https://github.com/brookhong/DBGPavim)
 * [supertab](https://github.com/ervandew/supertab/tree/master/plugin)
+* [SearchComplete](http://www.vim.org/scripts/script.php?script_id=474)
 
 ## Colorschemes
 * [vim-colors-solarized](https://github.com/altercation/vim-colors-solarized)
@@ -34,7 +35,13 @@ Minimal vim configuration using the bare requirements.
 
 ### Development
 
-* DB
+* DBGPavim 
+* syntastic
+
+### Text Completion
+
+* Supertab used for tab completion
+* SearchComplete adds tab completion inside / search
 
 ### System intergration
 
@@ -42,7 +49,6 @@ Minimal vim configuration using the bare requirements.
 
      `Ctrl-v`
     
-
 ### User interface tweaks
 
 * Powerline intergration

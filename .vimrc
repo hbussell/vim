@@ -32,7 +32,8 @@ if has('gui_running')
   set guifont=DroidSansMono\ 11
   " color scheme
   set background=dark
-  colorscheme codeschool
+  " colorscheme codeschool
+  colorscheme kolor
 endif
 
 
@@ -40,12 +41,12 @@ endif
 if !has('gui_running')
   set guifont=DroidSansMono\ 11
   " enable 256 color terminal theme
-  let t_Co=256
-  let g:solarized_termcolors = &t_Co
-  let g:solarized_termtrans = 1
+  set t_Co=256
+  "let g:solarized_termcolors = &t_Co
+  "let g:solarized_termtrans = 1
 
   " color scheme
-  colorscheme solarized
+  colorscheme kolor
 endif
 
 
