@@ -3,6 +3,7 @@ syntax on
 filetype plugin indent on
 syntax enable
 
+set number
 
 " set tab width
 set tabstop=2
@@ -20,14 +21,18 @@ set guioptions-=r  "remove right-hand scroll bar
 set guioptions+=LlRrb
 set guioptions-=LlRrb
 
+" color schemes available:
+" solarized
+" codeschool
+" kolor
 
 " gui theme
 if has('gui_running')
   "set guifont=Inconsolata\ 14
-  set guifont=DroidSansMono\ 10
+  set guifont=DroidSansMono\ 11
   " color scheme
   set background=dark
-  colorscheme solarized
+  colorscheme codeschool
 endif
 
 
@@ -38,6 +43,7 @@ if !has('gui_running')
   let t_Co=256
   let g:solarized_termcolors = &t_Co
   let g:solarized_termtrans = 1
+
   " color scheme
   colorscheme solarized
 endif
@@ -71,3 +77,6 @@ imap ii <Esc>
 python from powerline.vim import setup as powerline_setup
 python powerline_setup()
 python del powerline_setup
+
+" syntatic setup
+call pathogen#infect()
