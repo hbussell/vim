@@ -11,11 +11,19 @@ Minimal vim configuration using the bare requirements.
 * [DBGPavim](https://github.com/brookhong/DBGPavim)
 * [supertab](https://github.com/ervandew/supertab/tree/master/plugin)
 * [SearchComplete](http://www.vim.org/scripts/script.php?script_id=474)
+* [easy-motion](http://www.vim.org/scripts/script.php?script_id=3526)
 
 ## Colorschemes
 * [vim-colors-solarized](https://github.com/altercation/vim-colors-solarized)
 * [codeschool](https://github.com/29decibel/codeschool-vim-theme)
 * [kolor](https://github.com/zeis/vim-kolor)
+
+### Syntax
+
+* [python](http://www.vim.org/scripts/script.php?script_id=790)
+* [php](http://www.vim.org/scripts/script.php?script_id=1571)
+* [javascript](https://github.com/pangloss/vim-javascript)
+
 
 ### Installation
 
