@@ -5,10 +5,17 @@ syntax enable
 
 set number
 
+" high light search
+set hls
+
 " set tab width
 set tabstop=2
 set shiftwidth=2
 set expandtab
+
+" load syntax specific configurations
+au Filetype python source ~/.vim/syntax/python.vim
+au Filetype php source ~/.vim/syntax/php.vim
 
 
 " diable toolbar
@@ -32,8 +39,8 @@ if has('gui_running')
   set guifont=DroidSansMono\ 11
   " color scheme
   set background=dark
-  " colorscheme codeschool
-  colorscheme kolor
+  colorscheme codeschool
+  " colorscheme kolor
 endif
 
 
@@ -68,7 +75,10 @@ inoremap <C-t>     <Esc>:tabnew<CR>
 
 " nerdtree
 map <C-n> :NERDTreeToggle<CR>
+" show hidden files
 let NERDTreeShowHidden=1
+" hide pyc files
+let NERDTreeIgnore = ['\.pyc$']
 
 " map ii to escape key when in insert mode
 imap ii <Esc>

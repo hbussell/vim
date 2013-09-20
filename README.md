@@ -17,6 +17,11 @@ Minimal vim configuration using the bare requirements.
 * [codeschool](https://github.com/29decibel/codeschool-vim-theme)
 * [kolor](https://github.com/zeis/vim-kolor)
 
+### Installation
+
+`sudo apt-get install exuberant-ctags`
+
+
 
 ## Features
 
