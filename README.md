@@ -12,6 +12,9 @@ Minimal vim configuration using the bare requirements.
 * [supertab](https://github.com/ervandew/supertab/tree/master/plugin)
 * [SearchComplete](http://www.vim.org/scripts/script.php?script_id=474)
 * [easy-motion](http://www.vim.org/scripts/script.php?script_id=3526)
+* [autopairs](https://github.com/jiangmiao/auto-pairs)
+* [unimpaired]](https://github.com/tpope/vim-unimpaired)
+* [ctrlp]](https://github.com/kien/ctrlp.vim)
 
 ## Colorschemes
 * [vim-colors-solarized](https://github.com/altercation/vim-colors-solarized)
@@ -30,7 +33,6 @@ Minimal vim configuration using the bare requirements.
 `sudo apt-get install exuberant-ctags`
 
 
-
 ## Features
 
 ### Navigation
@@ -45,6 +47,25 @@ Minimal vim configuration using the bare requirements.
 * NERDTree
     
     `Ctrl-n` Toggle NERDTree
+
+* [cntrlp](https://github.com/kien/ctrlp.vim)
+
+  This plugin adds fuzzy file searching. 
+  ## Basic Usage
+  * Run `:CtrlP` or `:CtrlP [starting-directory]` to invoke CtrlP in find file mode.
+  * Run `:CtrlPBuffer` or `:CtrlPMRU` to invoke CtrlP in find buffer or find MRU file mode.
+  * Run `:CtrlPMixed` to search in Files, Buffers and MRU files at the same time.
+
+
+* Buffers
+
+  The unimparied plugin adds mappings to move easily between buffers and search results.
+
+  There are mappings which are simply short normal mode aliases for
+  commonly used ex commands. `]q` is :cnext. `[q` is :cprevious. `]a` is
+  :next.  `[b` is :bprevious.  See the documentation for the full set of
+  20 mappings and mnemonics.  All of them take a count.
+
 
 ### Development
 
