@@ -64,7 +64,7 @@ inoremap <C-v> <F10><C-r>+<F10>
 
 
 " tab navigation like firefox
-nnoremap <C-S-tab> :tabprevious<CR>
+nnoremap <C-S-tab> :tabprevious<CR
 nnoremap <C-tab>   :tabnext<CR>
 nnoremap <C-t>     :tabnew<CR>
 nnoremap <C-x>     :tabclose<CR>
@@ -91,3 +91,16 @@ python del powerline_setup
 
 " syntatic setup
 call pathogen#infect()
+
+" Ctrl-s to save files. 
+map <c-s> <Esc>:w<CR>
+inoremap <c-s> <Esc>:w<CR>i
+
+
+let g:dbgPavimPort = 9009
+let g:dbgPavimBreakAtEntry = 0
+
+if filereadable(glob("~/.vimrc.local")) 
+    source ~/.vimrc.local
+endif
+

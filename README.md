@@ -13,8 +13,8 @@ Minimal vim configuration using the bare requirements.
 * [SearchComplete](http://www.vim.org/scripts/script.php?script_id=474)
 * [easy-motion](http://www.vim.org/scripts/script.php?script_id=3526)
 * [autopairs](https://github.com/jiangmiao/auto-pairs)
-* [unimpaired]](https://github.com/tpope/vim-unimpaired)
-* [ctrlp]](https://github.com/kien/ctrlp.vim)
+* [unimpaired](https://github.com/tpope/vim-unimpaired)
+* [ctrlp](https://github.com/kien/ctrlp.vim)
 
 ## Colorschemes
 * [vim-colors-solarized](https://github.com/altercation/vim-colors-solarized)
