@@ -15,6 +15,7 @@ Minimal vim configuration using the bare requirements.
 * [autopairs](https://github.com/jiangmiao/auto-pairs)
 * [unimpaired](https://github.com/tpope/vim-unimpaired)
 * [ctrlp](https://github.com/kien/ctrlp.vim)
+* [vim-multiple-cursors](https://github.com/terryma/vim-multiple-cursors)
 
 ## Colorschemes
 * [vim-colors-solarized](https://github.com/altercation/vim-colors-solarized)
@@ -65,6 +66,17 @@ Minimal vim configuration using the bare requirements.
   commonly used ex commands. `]q` is :cnext. `[q` is :cprevious. `]a` is
   :next.  `[b` is :bprevious.  See the documentation for the full set of
   20 mappings and mnemonics.  All of them take a count.
+
+* Editing
+
+  *Multiple Cursors*
+   
+  In normal mode use cursor to select word then use the binding `C-c` to select each next match.  Then `c` to change word and enter replacement word for each selected instance.
+
+  `C-c` next match
+  `C-x` previous match
+  `C-z` skip match
+  `Esc` quit   
 
 
 ### Development
