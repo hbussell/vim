@@ -13,6 +13,13 @@ set tabstop=2
 set shiftwidth=2
 set expandtab
 
+" backup to ~/.tmp 
+set backup 
+set backupdir=~/.vim-tmp,~/.tmp,~/tmp,/var/tmp,/tmp 
+set backupskip=/tmp/*,/private/tmp/* 
+set directory=~/.vim-tmp,~/.tmp,~/tmp,/var/tmp,/tmp 
+set writebackup
+
 " load syntax specific configurations
 au Filetype python source ~/.vim/syntax/python.vim
 au Filetype php source ~/.vim/syntax/php.vim
@@ -36,7 +43,8 @@ set guioptions-=LlRrb
 " gui theme
 if has('gui_running')
   "set guifont=Inconsolata\ 14
-  set guifont=DroidSansMono\ 11
+  "  set guifont=DroidSansMono\ 11
+  set guifont=Source\ Code\ Pro\ Regular\ 11
   " color scheme
   set background=dark
   colorscheme codeschool
